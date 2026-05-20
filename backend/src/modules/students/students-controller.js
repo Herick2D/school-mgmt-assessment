@@ -19,8 +19,9 @@ const handleUpdateStudent = asyncHandler(async (req, res) => {
 });
 
 const handleGetStudentDetail = asyncHandler(async (req, res) => {
-    //write your code
-
+    const { id } = req.params;
+    const student = await getStudentDetail(id);
+    res.status(200).json(student);
 });
 
 const handleStudentStatus = asyncHandler(async (req, res) => {
