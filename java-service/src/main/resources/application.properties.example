@@ -1,0 +1,5 @@
+spring.application.name=java-service
+server.port=8080
+node.backend.url=http://localhost:5007
+node.backend.username=your_username_here
+node.backend.password=your_password_here
