@@ -8,8 +8,8 @@ const handleGetAllStudents = asyncHandler(async (req, res) => {
 });
 
 const handleAddStudent = asyncHandler(async (req, res) => {
-    //write your code
-
+    const result = await addNewStudent(req.body);
+    res.status(201).json(result);
 });
 
 const handleUpdateStudent = asyncHandler(async (req, res) => {
