@@ -14,7 +14,7 @@ public record StudentDTO(Integer id,
                          String motherName,
                          String motherPhone,
                          String currentAddress,
-                         String permanetAddress,
+                         String permanentAddress,
                          String admissionDate,
                          String reporterName,
                          Boolean systemAccess) {
