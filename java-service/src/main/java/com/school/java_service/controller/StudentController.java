@@ -1,4 +1,4 @@
-package com.school.java_service.config;
+package com.school.java_service.controller;
 
 import com.school.java_service.dto.StudentDTO;
 import com.school.java_service.service.StudentService;
